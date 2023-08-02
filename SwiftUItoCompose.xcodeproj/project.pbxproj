@@ -14,6 +14,9 @@
 		CE0352852A796D5200C3463E /* SwiftUItoComposeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0352842A796D5200C3463E /* SwiftUItoComposeTests.swift */; };
 		CE03528F2A796D5200C3463E /* SwiftUItoComposeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03528E2A796D5200C3463E /* SwiftUItoComposeUITests.swift */; };
 		CE0352912A796D5200C3463E /* SwiftUItoComposeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0352902A796D5200C3463E /* SwiftUItoComposeUITestsLaunchTests.swift */; };
+		CE03529E2A79827200C3463E /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03529D2A79827200C3463E /* TaskDetailsView.swift */; };
+		CE0352A02A7982C800C3463E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03529F2A7982C800C3463E /* AddTaskView.swift */; };
+		CE0352A22A79830C00C3463E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0352A12A79830C00C3463E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		CE03528A2A796D5200C3463E /* SwiftUItoComposeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUItoComposeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE03528E2A796D5200C3463E /* SwiftUItoComposeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUItoComposeUITests.swift; sourceTree = "<group>"; };
 		CE0352902A796D5200C3463E /* SwiftUItoComposeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUItoComposeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE03529D2A79827200C3463E /* TaskDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		CE03529F2A7982C800C3463E /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		CE0352A12A79830C00C3463E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				CE0352732A796D5100C3463E /* SwiftUItoComposeApp.swift */,
 				CE0352752A796D5100C3463E /* ContentView.swift */,
+				CE0352A12A79830C00C3463E /* Model.swift */,
+				CE03529F2A7982C800C3463E /* AddTaskView.swift */,
+				CE03529D2A79827200C3463E /* TaskDetailsView.swift */,
 				CE0352772A796D5200C3463E /* Assets.xcassets */,
 				CE0352792A796D5200C3463E /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0352A22A79830C00C3463E /* Model.swift in Sources */,
 				CE0352762A796D5100C3463E /* ContentView.swift in Sources */,
 				CE0352742A796D5100C3463E /* SwiftUItoComposeApp.swift in Sources */,
+				CE03529E2A79827200C3463E /* TaskDetailsView.swift in Sources */,
+				CE0352A02A7982C800C3463E /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
